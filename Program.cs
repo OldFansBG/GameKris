@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace GameKris
 {
-    public class Game
+    private class Game
     {
-        public string Name { get; set; }
-        public double Price { get; set; }
-        public string Genre { get; set; }
-        public int YearProduced { get; set; }
+        private string Name { get; set; }
+        private double Price { get; set; }
+        private string Genre { get; set; }
+        private int YearProduced { get; set; }
 
         public Game(string name, double price, string genre, int yearProduced)
         {
